@@ -59,7 +59,7 @@ int main()
 		cout << "error" << endl;
 		system("pause");
 	}
-	int min = d_start, max = d_end;
+	int min = d_start, max = d_start;
 	for (int i = d_start; i <= d_end; ++i) {
 		if (arr[i] > arr[max]) {
 			max = i;
